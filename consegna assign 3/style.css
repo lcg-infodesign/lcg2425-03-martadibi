@@ -1,0 +1,128 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 90%;
+}
+
+canvas {
+  display: block;
+}
+
+.legenda {
+  width: 20%;
+  height: 34%;
+  background-color: #dcdcdc;
+  position: fixed;
+  top: 63%;
+  right: 2%;
+  border-radius: 20px;
+}
+
+h2{
+  padding: 5px;
+  margin-left: 6%;
+  margin-bottom: -1%;
+
+}
+
+p{
+  margin-left: 8%;
+}
+
+.colori {
+  width: 100%;
+  height: 50%;
+  margin-left: 4%;
+  
+}
+
+#arancione {
+  width: 20px;
+  height: 20px;
+  margin-left: 4% ;
+  background-color: #FB8500;
+  border-radius: 50%;
+}
+#giallo {
+  width: 20px;
+  height: 20px;
+  margin-left: 4% ;
+  background-color: #FFB703;
+  border-radius: 50%;
+}
+
+#azzurro {
+  width: 20px;
+  height: 20px;
+  margin-left: 4% ;
+  background-color: #8ECAE6;
+  border-radius: 50%;
+}
+
+.cerchi  {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.cerchi2{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+.riga{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -1.5%;
+}
+
+.riga p{
+  margin-top: -0%;
+  margin-left: 4%;
+  
+}
+
+#azzurrochiaro {
+  width: 20px;
+  height: 20px;
+  margin-left: 4%;
+  background-color: #219EBC;
+  border-radius: 50%;
+}
+
+#blu {
+  width: 20px;
+  height: 20px;
+  margin-left: 4% ;
+  background-color: #023047;
+  border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  .legenda {
+    width: 60%;
+    height: 20%;
+    background-color: #edededcf;
+    position: fixed;
+    top: 1%;
+    left: 2%;
+    border-radius: 15px;
+    overflow: scroll;
+  }
+
+  
+
+  h2{
+    padding: 2px;
+    margin-left: 7%;
+    margin-top: 2%;
+  
+  }
+
+  
+
+}
