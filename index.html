@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+    <div class="legenda">
+      <h2>Legenda</h3>
+      <p>Rect width: river's discharge</p>
+      <p>Rect height: river's lenght</p>
+      <p><b>Colors:</b></p>
+      <div class="colori">
+        <div class="cerchi">
+          <div class="riga"><div id="arancione"></div> <p>Average temperature > 10°C</p></div>
+          <div class="riga"><div id="giallo"></div><p>5°C < Average temperature < 10°C</p></div>
+          <div class="riga"><div id="azzurro"></div><p>0°C < Average temperature < 5°C</p></div>
+        </div>
+        <div class="cerchi2">
+          <div class="riga"><div id="azzurrochiaro"></div><p>-3°C < Average temperature < 0°C </p></div>
+          <div class="riga"><div id="blu"></div><p>Average temperature < -3°C</p></div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </body>
+</html>
